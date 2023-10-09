@@ -1,6 +1,22 @@
-**Kids Hobby Prediction Dataset**
+## **Kids Hobby Prediction Dataset**
 
-Following the selection of our data set ("Hobby_Data"), we will begin to work and analyse the data in order to accomplish our goal. The data set will initially be ready. by acting The preprocessing procedures:
+**Description:**
+
+Following the selection of our data set ("Hobby_Data") which predicts kids' hobbies, that was collected by asking their parents specific questions about their kid's preferences, capabilities, and achievements. To help us train the machine to predict the kid's hobby. We will begin to preprocess and analyze the data.
+
+**General information about the data set:**
+
+```{r}
+str(dataset)
+```
+
+**summary of the dataset:**
+
+-   samples of raw dataset:
+
+```{r}
+sample(dataset)
+```
 
 #1# Data cleaning
 
