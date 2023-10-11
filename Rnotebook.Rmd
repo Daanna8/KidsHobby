@@ -17,6 +17,37 @@ str(dataset)
 ```{r}
 sample(dataset)
 ```
+-   Statistical measures :
+```{r}
+
+
+mode(dataset$Grasp_pow)
+mean(dataset$Grasp_pow)
+
+mean(dataset$Time_sprt)
+
+mode(dataset$Time_sprt)
+
+
+
+mode(dataset$Time_art)
+
+Mode <- function(dataset) {
+  ux <- unique(dataset)
+  ux[which.max(tabulate(match(dataset, ux)))]
+} 
+
+modes<-Mode(dataset)
+print(Mode)
+
+mean(dataset$Time_art)
+
+
+ 
+
+```
+
+
 
 #1# Data cleaning
 
